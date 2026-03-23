@@ -155,7 +155,6 @@ article a:hover {
     align-items: center;
     align-content: center;
     justify-content: center;
-    height: 450px;
 }
 .character-frame img, .outcomes-container img {
     filter:brightness(75%);
@@ -165,15 +164,16 @@ article a:hover {
     filter:brightness(100%);
 }
 .character-main img {
-    height: 450px;
+    max-height: 75vh;
     object-fit: contain;
 }
 .character-iterations {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 .character-iterations img {
-    height: 200px;
+    max-height: 30vh;
     object-fit: contain;
     transform: scaleX(-1);
 }
